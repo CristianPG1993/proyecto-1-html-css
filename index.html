@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio | Cristian Paños</title>
+
+  <meta name="description" content="Portfolio personal de Cristian Paños: proyectos, habilidades y contacto." />
+  <meta name="author" content="Cristian Paños" />
+  <meta name="keywords" content="portfolio, DAM, HTML, CSS, desarrollador, proyectos" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<!-- Body: contenido principal del portfolio -->
+<body>
+  <!--Header: Logo y navegación principal-->  
+  <header>
+    <div>
+      <a href="#inicio">Cristian</a>
+    </div>
+
+    <nav aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section aria-label="Sección principal">
+      <h1>Hola, soy Cristian Paños</h1>
+      <p>Estudiante de DAM y desarrollador junior. Me encanta desarrollar aplicaciones tanto de manera profesional como personal.</p>
+      <a href="#portafolio">Ver proyectos</a>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM) con pasión por la programación y el desarrollo web. Me encanta aprender nuevas tecnologías y mejorar mis habilidades constantemente. 
+        Actualmente, estoy trabajando como desarrollador junior en una startup de ciberseguiridad, donde aplico mis conocimientos en proyectos reales y colaboro con un equipo con gran experiencia profesional.
+      </p>
+      <img src="https://via.placeholder.com/320x320" alt="Foto o avatar de Cristian Paños" />
+    </section>
+
+    <section id="portafolio">
+      <h2>Portafolio</h2>
+
+      <div>
+        <article>
+          <img src="img/fotoproyecto1.jpg" alt="Captura del proyecto 1" />
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve del proyecto 1.</p>
+        </article>
+
+        <article>
+          <img src="img/fotoproyecto2.jpg" alt="Captura del proyecto 2" />
+          <h3>Proyecto 2</h3>
+          <p>Descripción breve del proyecto 2.</p>
+        </article>
+
+        <article>
+          <img src="img/fotoproyecto3.jpg" alt="Captura del proyecto 3" />
+          <h3>Proyecto 3</h3>
+          <p>Descripción breve del proyecto 3.</p>
+        </article>
+
+        <article>
+          <img src="img/fotoproyecto4.jpg" alt="Captura del proyecto 4" />
+          <h3>Proyecto 4</h3>
+          <p>Descripción breve del proyecto 4.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+
+      <form>
+        <div>
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" placeholder="Tu nombre" required />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@email.com" required />
+        </div>
+
+        <div>
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <!--Footer: Información de derechos y enlaces a redes sociales-->
+  <footer>
+    <p>© <span>2025</span> Cristian Paños. Todos los derechos reservados.</p>
+    <nav aria-label="Redes sociales">
+      <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </nav>
+  </footer>
+</body>
+</html>
