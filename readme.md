@@ -92,8 +92,16 @@ Se han utilizado **media queries**, **Flexbox** y **Grid** para garantizar una b
 Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM)  
 Perfil orientado a desarrollo web y ciberseguridad
 
-- GitHub: https://github.com/CristianPG1993
-- LinkedIn: https://www.linkedin.com/in/cristian-pa%C3%B1os-664a65139/
+- [GitHub](https://github.com/CristianPG1993)
+- [LinkedIn](https://www.linkedin.com/in/cristian-pa%C3%B1os-664a65139/)
+
+---
+
+## 🌐 Demo
+
+El proyecto está desplegado en GitHub Pages:
+
+👉 [Demo](https://cristianpg1993.github.io/proyecto-1-html-css/)
 
 ---
 
